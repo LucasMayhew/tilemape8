@@ -1,5 +1,5 @@
 namespace custem {
-    //% blockId=tilemap_editor_eight block="set tilemap (8) to $tilemap"
+     //% blockId=tilemap_editor_eight block="set tilemap (8) to $tilemap"
     //% weight=200 blockGap=8
     //% tilemap.fieldEditor="tilemap"
     //% tilemap.fieldOptions.decompileArgumentAsString="true"
@@ -9,7 +9,7 @@ namespace custem {
     //% blockNamespace="scene" group="Tiles" duplicateShadowOnDrag
     //% help=tiles/set-tile-map
     export function setTilemap(tilemap: tiles.TileMapData) {
-     scene.setTileMapLevel(tilemap);
-    } 
+        scene.setTileMapLevel(tilemap);
+    }
    
 }
